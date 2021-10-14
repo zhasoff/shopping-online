@@ -1,21 +1,28 @@
 <template>
   <div class="home">
-    <MainContainer> 
-    <div class="container">
-      <h1>Home Page</h1>
-    </div>
-    </MainContainer>
-    
+    <AdwPanel />
+    <ActivationItems />
+    <BonusItems />
+    <SwiperBottom />
+    <Sponsors />
     <!-- <Header msg="Welcome to Your Vue.js App"/> -->
   </div>
 </template>
 <script>
-import MainContainer from '../components/MainContainer.vue'
+import Sponsors from "@/components/Sponsors.vue";
+import SwiperBottom from "@/components/SwiperBottom.vue";
+import BonusItems from "@/components/BonusItems.vue";
+import ActivationItems from "@/components/ActivationItems.vue";
+import AdwPanel from "@/components/AdwPanel.vue";
 
 export default {
   name:'Home',
   components: {
-   MainContainer
+       Sponsors,
+    SwiperBottom,
+    BonusItems,
+    ActivationItems,
+    AdwPanel,
   }
 }
 </script>

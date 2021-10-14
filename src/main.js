@@ -2,4 +2,7 @@ import { createApp } from 'vue'
 import App from './App.vue'
 import router from './router'
 
-createApp(App).use(router).mount('#app')
+import VueAgile from 'vue-agile'
+
+
+createApp(App).use(VueAgile).use(router).mount('#app').use(VueAgile)

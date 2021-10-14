@@ -137,8 +137,7 @@ export default {
   data() {
     return {
       headerMenuList: [
-        // {name:'Катигории товаров', path: '/'},
-        { name: "Главная", path: "/home" },
+        { name: "Главная", path: "/" },
         { name: "О компании", path: "/about" },
         { name: "Бонусная система", path: "/" },
         { name: "Поддержка", path: "/" },
@@ -227,28 +226,30 @@ export default {
   color: #000000;
 }
 .dropdown {
-  position: inherit;
+  position: relative;
   width: 153px;
   height: 29px;
-  left: 1207px;
-  top: 28px;
-
+  /* left: 1207px;
+  top: 28px; */
   background: #cdf3ff;
   border-radius: 14.5px;
   justify-content: space-between;
 }
 .dropdown > button {
   position: absolute;
+      left: 35px;
   padding: 0 0 0 0;
-  top: 17px;
+  top: 2px;
 }
 .imagesize {
-  position: relative;
-  left: -11px;
+  position: absolute;
+  left: 10px;
+    top: 10px;
 }
 .img1 {
   position: relative;
   right: -5px;
+  display: contents;
 }
 .search {
   width: 460px;
