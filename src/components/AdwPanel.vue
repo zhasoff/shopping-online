@@ -134,7 +134,7 @@ color: #1D1A1A;
   left: 0px;
  border-radius: 0;
   white-space: nowrap;
-  background-image: linear-gradient(gray 100%, transparent 0);
+  // background-image: linear-gradient(gray 100%, transparent 0);
 }
 .agile__actions {
   margin: 10px;

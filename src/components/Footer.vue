@@ -31,7 +31,7 @@
             <a href="#"
               ><img class="mr-l-25" src="../assets/images/Twitter.png" alt=""
             /></a>
-            <a href="#"><img src="../assets/images/vk.png" alt="" /></a>
+            <a href="#"><img class="mr-l-25" src="../assets/images/vk.png" alt="" /></a>
           </div>
         </ul>
       </div>

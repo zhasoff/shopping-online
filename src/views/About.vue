@@ -126,6 +126,10 @@ export default {
 };
 </script>
 <style>
+.btn-light {
+    /* color: #000; */
+    border-color: #d9efff; 
+}
 .about, .flex-fill {
     background-color: #e5e5e5;
 }
@@ -314,7 +318,7 @@ export default {
   left: 0;
   top: 0;
   color: black;
-  background-color: #ffffff;
+  background-color: #d9efff;
   border-radius: 0;
 }
 
